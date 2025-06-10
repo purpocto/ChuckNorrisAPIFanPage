@@ -54,7 +54,7 @@ function Home() {
         Get Random Chuck Fact
       </button>
 
-      {/* 🔥 Kicking animation image */}
+    
       {kicking && (
         <img
           src={kickingImg}
@@ -64,14 +64,13 @@ function Home() {
         />
       )}
 
-      {/* 💬 Joke display */}
       {joke && (
         <div className="mt-6 max-w-2xl mx-auto text-lg bg-zinc-900 text-green-400 p-6 rounded-lg shadow-lg border border-red-600">
           <p className="italic leading-relaxed">💥 {joke}</p>
         </div>
       )}
 
-      {/* 🖼 Slideshow under joke */}
+
       <div className="mt-10 flex justify-center">
         <img
           src={memeImages[memeIndex]}
